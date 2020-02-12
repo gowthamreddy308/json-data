@@ -1,0 +1,11 @@
+th  {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #4CAF50;
+  }
+td {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: rgb(69, 155, 163);
+}  
+td:hover { 
+  background-color: rgb(131, 193, 235);
+}

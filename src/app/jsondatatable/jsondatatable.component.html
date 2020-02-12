@@ -1,0 +1,14 @@
+<table border='1' >
+    <tr>
+        <th>states</th>
+        <th>districts</th>
+
+    </tr>
+    <tr *ngFor='let s of states[0].states'>
+        <td [title]="s.state">{{s.state}}</td>
+        <span *ngFor='let x of s.districts'>
+            
+            <td [title]="x">{{x}}</td>
+            </span>
+    </tr>
+</table>
